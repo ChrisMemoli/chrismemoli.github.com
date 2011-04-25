@@ -6,7 +6,7 @@ a:hover { color:maroon;}
     padding-top: 10px;
     width: 95%;
 	border-radius: 15px;
-	
+	overflow:visible;
 }
 .left_container {
     float: left;
