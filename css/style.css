@@ -38,8 +38,9 @@ a{
 	font-weight:bold;
 	color:#6a6904;
 }
-.link_box{
-	border:2px;
+.link{
+	border: 2px solid black ;
+
 }
 .content {
     float: left;
@@ -52,13 +53,13 @@ a{
 	
 }
 .content .heading {
-	border: 3px solid black ;
+	border: 2px solid black ;
 	margin-bottom:50px;
 	border-radius: 15px;
 	
 }
 .contact{
-	border: 3px solid black ;
+	border: 2px solid black ;
 	bottom-margin:50px;
  	border-radius: 15px;
 
@@ -76,7 +77,7 @@ a{
 margin-top:250px;
  margin-right: 50px;
  margin-left:200px; 
-border: 3px solid black; 
+border: 2px solid black; 
 	font-size: 130%; 
 	padding:18px;
 	border-radius: 15px;
@@ -89,7 +90,7 @@ border: 3px solid black;
 	margin-left:180px;
 	margin-right:60px;
 	margin-top:650px;
-	border: 3px solid black ;
+	border: 2px solid black ;
 	margin-bottom:50px;
 	border-radius: 15px;
 	text-align:center;
