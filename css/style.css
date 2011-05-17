@@ -10,6 +10,8 @@ h8 { font-family: sans-serif; font-size: 120%; }
     width: 1100px;
 	border-radius: 15px;
 	overflow:visible;
+	border: 1px solid black;
+    
 }
 .left_container {
     float: left;
@@ -18,7 +20,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
     border-color: Black;
 }
 .left_container .links {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
 	border-width: 4px;
     border-color: Black;
