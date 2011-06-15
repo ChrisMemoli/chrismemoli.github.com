@@ -42,6 +42,7 @@ a{
 }
 .link{
 	border: 2px solid black ;
+	border-radius: 18px;
 
 }
 .content {
@@ -55,7 +56,7 @@ a{
 	
 }
 .content .heading {
-	border: 2px solid black ;
+	border: 0px solid black ;
 	margin-bottom:50px;
 	border-radius: 15px;
 	
