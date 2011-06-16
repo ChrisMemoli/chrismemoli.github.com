@@ -10,7 +10,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
     width: 1200px;
 	border-radius: 15px;
 	overflow:visible;
-	border: 1px solid black;
+	border: 1px solid red;
     
 }
 .left_container {
@@ -42,7 +42,7 @@ a{
 }
 .link{
 	border: 2px solid black ;
-	border-radius: 18px;
+	border-radius: 8px;
 
 }
 .content {
