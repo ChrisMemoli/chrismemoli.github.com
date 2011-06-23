@@ -45,14 +45,11 @@ a{
 }
 
 .link{
-	border: 0px solid red ;
+	border: 0px solid black ;
 	border-radius: 8px;
     text-decoration:none;
 }
-.link a:hover{
-	font-size:30px; font-weight:bold; color: red;
-}
-}
+
 .content {
     float: left;
     margin: 10px;
