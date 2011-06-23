@@ -50,7 +50,7 @@ a{
     text-decoration:none;
 }
 .link a:hover{
-	font-size:26px; font-weight:bold; color: red;
+	font-size:23px; font-weight:bold; color: red;
 
 .content {
     float: left;
