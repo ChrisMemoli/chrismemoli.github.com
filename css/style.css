@@ -1,7 +1,7 @@
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
-a:hover {font-size:30px; font-weight:bold; color: red;}
+a:hover {font-weight:bold; color: red;}
 
 h8 { font-family: sans-serif; font-size: 120%; }
 
@@ -43,10 +43,15 @@ a{
 	font-weight:bold;
 	color:#ffffff;
 }
-.link{
-	border: 0px solid black ;
-	border-radius: 8px;
 
+.link{
+	border: 0px solid red ;
+	border-radius: 8px;
+    text-decoration:none;
+}
+.link a:hover{
+	font-size:30px; font-weight:bold; color: red;
+}
 }
 .content {
     float: left;
