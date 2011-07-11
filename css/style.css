@@ -121,3 +121,7 @@ body
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
