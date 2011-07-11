@@ -7,35 +7,36 @@ h8 { font-family: sans-serif; font-size: 120%; }
 
 
 .wrapper {
-    background: #888888;
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 1200px;
+	background: #888888;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 1200px;
 	border-radius: 15px;
 	overflow:visible;
 	border: 1px solid red;
-    
+    filter:alpha(opacity=90);
+	  opacity:0.9;
 }
 .left_container {
-    float: left;
-    margin: 10px;
-   border-width: 0px;
-    border-color: Black;
+	float: left;
+	margin: 10px;
+	border-width: 0px;
+	border-color: Black;
 }
 .left_container .links {
-    border: 2px solid black;
-    padding: 10px;
+	border: 2px solid black;
+	padding: 10px;
 	border-width: 4px;
-    border-color: Black;
+	border-color: Black;
 	margin-top:50px;
-	
+
 }
 .left_container .links a {
-    display: block;
-    padding-top: 10px;
-   border-width: 4px;
-    border-color: Black;
-	
+	display: block;
+	padding-top: 10px;
+	border-width: 4px;
+	border-color: Black;
+
 }
 a{
 	font-size:20px;
@@ -47,51 +48,51 @@ a{
 .link{
 	border: 0px solid black ;
 	border-radius: 8px;
-    text-decoration:none;
+	text-decoration:none;
 }
 .link a:hover{
 	font-size:23px; font-weight:bold; color: red;
 }
 .content {
-    float: left;
-    margin: 10px;
-    padding-left: 10px;
-   border-width: 1px;
-    border-color: Black;
+	float: left;
+	margin: 10px;
+	padding-left: 10px;
+	border-width: 1px;
+	border-color: Black;
 	margin-top:50px;
 	margin-bottom:50px;
-	
+
 }
 .content .heading {
 	border: 0px solid black ;
 	margin-bottom:50px;
 	border-radius: 15px;
-	
+
 }
 .contact{
 	border: 2px solid black ;
 	bottom-margin:50px;
- 	border-radius: 15px;
+	border-radius: 15px;
 
-	
+
 }
 .clear {
-    clear: both;
+	clear: both;
 }
 .content img {
-  display: inline;
+	display: inline;
 }
 .h2  { font-family: "times new roman", serif; }
 
 .what_i_do{
-margin-top:250px;
- margin-right: 211px;
- margin-left:200px; 
-border: 2px solid black; 
+	margin-top:250px;
+	margin-right: 211px;
+	margin-left:200px; 
+	border: 2px solid black; 
 	font-size: 130%; 
 	padding:18px;
 	border-radius: 15px;
-	
+
 }
 
 .red { color: #E01930; font-size: 20px;font-weight: normal;}
@@ -106,11 +107,17 @@ border: 2px solid black;
 	text-align:center;
 	float:bottom;
 }
- .underimage{
+.underimage{
 	text-align: bottom;
 	float:left;
 	text-align: center;
-   	position:relative;
-margin:10px 50px 10px 10px;  
+	position:relative;
+	margin:10px 50px 10px 10px;  
 
+}
+body 
+{
+	background-image:url('images/1bg2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
