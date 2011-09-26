@@ -44,12 +44,11 @@ a{
 	color:#ffffff;
 }
 
-.link{
-	
+.link{	
 	background-color: #2e3548;
 	margin: 0;
 	padding: 0;	
-	border: 2px solid black ;
+	border: 2px solid white ;
 	border-radius: 8px;
 	text-decoration:none;
 }
@@ -101,7 +100,7 @@ a{
 
 .red { color: #E01930; font-size: 25px;font-weight: bold;}
 
-.footer{
+.footer{	
 	margin-left:211px;
 	margin-right:60px;
 	margin-top:650px;
@@ -110,6 +109,16 @@ a{
 	border-radius: 15px;
 	text-align:center;
 	float:bottom;
+}
+.footerlink{
+		background-color: #2e3548;			
+			margin-left:375px;
+			margin-right:375px;
+		border: 2px solid white ;
+		border-radius: 8px;
+		text-decoration:none;
+	}
+	
 }
 .underimage{
 	text-align: bottom;
