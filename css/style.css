@@ -127,6 +127,10 @@ a{
 	margin:10px 82px 10px 28px;  
 
 }
+
+.underimage a {color:#2e3548;
+	}
+
 body 
 {
 	background-image:url('../images/gl.jpg');
