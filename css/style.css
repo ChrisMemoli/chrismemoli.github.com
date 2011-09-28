@@ -78,6 +78,7 @@ a{
     padding-bottom:23px;
 	padding-left:23px;
 	width:800px;
+	float:right;
 }
 .clear {
 	clear: both;
@@ -102,8 +103,8 @@ a{
 
 .footer{	
 	margin-left:211px;
-	margin-right:60px;
-	margin-top:650px;
+	margin-right:200px;
+	margin-top:20px;
 	border: 2px solid black ;
 	margin-bottom:50px;
 	border-radius: 15px;
@@ -111,13 +112,15 @@ a{
 	float:bottom;
 }
 .footerlink{
-		background-color: #2e3548;			
-			margin-left:375px;
+		background-color: #2e3548;
+		margin-top: 650px;    
+		margin-left:375px;
 			margin-right:375px;
 		border: 2px solid white ;
 		border-radius: 8px;
 		text-decoration:none;
-}
+	color:#2e3548;
+	}
 	
 .underimage{
 	text-align: bottom;
@@ -125,11 +128,10 @@ a{
 	text-align: center;
 	position:relative;
 	margin:10px 82px 10px 28px;  
-
+    
 }
-
 .underimage a {color:#2e3548;
-	}
+ }			
 
 body 
 {
