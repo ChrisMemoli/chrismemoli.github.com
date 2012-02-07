@@ -44,6 +44,14 @@ a{
 	color:#ffffff;
 }
 
+.contact_link{	
+	background-color: #2e3548;
+	margin: 0;
+	padding: 0;	
+	border: px solid white ;
+	border-radius: 8px;
+	text-decoration:none;
+}
 .link{	
 	background-color: #2e3548;
 	margin: 0;
