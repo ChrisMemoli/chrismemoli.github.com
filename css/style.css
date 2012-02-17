@@ -92,6 +92,7 @@ a{
 }
 .content img {
 	display: inline;
+	border: 2px solid white; 
 }
 .h2  { font-family: "times new roman", serif; }
 
@@ -145,7 +146,7 @@ body
 	background-image:url('../images/gl.jpg');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	color: #000000;
+	color: #000000; 
 }
 #youtube{
 	border:10px;
