@@ -34,7 +34,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
 	display: block;
 	padding-top: 10px;
 	border-width: 4px;
-	border-color: white;
+	border-color: white;	
 
 }
 a{
@@ -58,6 +58,9 @@ a{
 	border: 2px solid white ;
 	border-radius: 8px;
 	text-decoration:none;
+}
+.link a{
+	padding:0px 10px;
 }
 .link a:hover{
 	font-size:20px; font-weight:bold; color: red;
@@ -93,8 +96,10 @@ a{
 .content img {
 	display: inline;
 	border: 2px solid white; 
+	
 }
 .h2  { font-family: "times new roman", serif; }
+.h1{font-size:45px; color:#000000;}
 
 .what_i_do{
 	margin-top:250px;
@@ -146,7 +151,7 @@ body
 	background-image:url('../images/gl.jpg');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	color: #000000; 
+	color: #000000;
 }
 #youtube{
 	border:10px;
