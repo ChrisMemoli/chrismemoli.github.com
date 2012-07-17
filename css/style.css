@@ -12,9 +12,10 @@ h8 { font-family: sans-serif; font-size: 120%; }
 	padding-top: 10px;
  	width: 1210px;
 	border-radius: 15px;
-	overflow:visible;
+	overflow:inherit;
 	border: 2px solid white;
-    
+ /*   overflow: inherit; trying to get  the image to  b the leangth of the page
+   */ 
 }
 .left_container {
 	float: left;
@@ -164,3 +165,23 @@ p {
 	padding-top:30;
 	position:relative;
 }
+.footerlinks{	
+	background-color: #2e3548;
+	margin: 0px 202px;
+	padding: 0;	
+	border: 2px solid white ;
+	border-radius: 8px;
+	text-decoration:none;
+
+}
+
+.backlink{
+		background-color: #2e3548;
+		    
+		margin-left:375px;
+			margin-right:375px;
+		border: 2px solid white ;
+		border-radius: 8px;
+		text-decoration:none;
+	color:#2e3548;
+	}
