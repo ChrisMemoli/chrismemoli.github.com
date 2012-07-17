@@ -110,7 +110,7 @@ a{
 	font-size: 130%; 
 	padding:18px;
 	border-radius: 15px;
-
+	background:gray;
 }
 
 .red { color: #E01930; font-size: 25px;font-weight: bold;}
