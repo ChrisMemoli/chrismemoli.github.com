@@ -90,6 +90,7 @@ a{
 	padding-left:23px;
 	width:800px;
 	float:right;
+	background:gray;
 }
 .clear {
 	clear: both;
