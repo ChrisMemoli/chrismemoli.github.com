@@ -151,7 +151,7 @@ a{
 body 
 {
 	background-image:url('../images/gl.jpg');
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	background-attachment:fixed;
 	color: #000000;
 }
