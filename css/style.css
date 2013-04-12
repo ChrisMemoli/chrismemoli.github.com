@@ -59,6 +59,8 @@ a{
 	border: 2px solid white ;
 	border-radius: 8px;
 	text-decoration:none;
+	margin-left:19%;
+	margin-right:12%;
 }
 .link a{
 	padding:0px 10px;
@@ -67,7 +69,7 @@ a{
 	font-size:20px; font-weight:bold; color: red;
 }
 .content {
-	float: left;
+	/*float: left; */
 	margin: 10px;
 	padding-left: 10px;
 	border-width: 1px;
@@ -89,7 +91,7 @@ a{
     padding-bottom:23px;
 	padding-left:23px;
 	width:800px;
-	float:right;
+/*	float:right;*/
 	background:gray;
 }
 .clear {
@@ -124,22 +126,31 @@ a{
 	margin-bottom:50px;
 	border-radius: 15px;
 	text-align:center;
-	float:bottom;
+/*	float:bottom; */
 }
 .footerlink{
 		background-color: #2e3548;
-		margin-top: 637px;    
-		margin-left:375px;
-			margin-right:375px;
+		margin-top: 50px;    
+		margin-left:525px;
+		margin-right:525px;
 		border: 2px solid white ;
 		border-radius: 8px;
 		text-decoration:none;
 	color:#2e3548;
 	}
-	
+.footerlink1{
+			background-color: #2e3548;
+			margin-top:0px;    
+			margin-left:486px;
+				margin-right:486px;
+			border: 2px solid white ;
+			border-radius: 8px;
+			text-decoration:none;
+		color:#2e3548;
+		}
 .underimage{
 	text-align: bottom;
-	float:left;
+/*	float:left; */
 	text-align: center;
 	position:relative;
 	margin:10px 82px 10px 28px;  
