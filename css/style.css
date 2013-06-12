@@ -86,7 +86,7 @@ a{
 }
 .contact{
 	border: 2px solid white ;
-	bottom-margin:50px;
+	margin: 0 auto;
 	border-radius: 15px;
     padding-bottom:23px;
 	padding-left:23px;
@@ -148,14 +148,10 @@ a{
 			text-decoration:none;
 		color:#2e3548;
 		}
-.underimage{
-	text-align: bottom;
-/*	float:left; */
-	text-align: center;
-	position:relative;
-	margin:10px 82px 10px 28px;  
-    
-}
+.˝underimage {
+		display: inline-block;
+		}
+
 .underimage a {color:#2e3548;
  }			
 
@@ -197,3 +193,4 @@ p {
 		text-decoration:none;
 	color:#2e3548;
 	}
+
