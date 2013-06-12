@@ -84,15 +84,14 @@ a{
 	border-radius: 15px;
 
 }
-.contact{
-	border: 2px solid white ;
-	margin: 0 auto;
-	border-radius: 15px;
-    padding-bottom:23px;
-	padding-left:23px;
-	width:800px;
-/*	float:right;*/
-	background:gray;
+.contact {
+  border: 2px solid white;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding-bottom: 23px;
+  padding-left: 23px;
+  width: 800px;
+  background: gray;
 }
 .clear {
 	clear: both;
