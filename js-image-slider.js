@@ -6,7 +6,7 @@ var sliderOptions=
 	pauseTime: 2600,
 	transitionTime: 500,
 	slices: 8,
-	boxes: 6˝˝,
+	boxes: 6,
 	hoverPause: true,
 	autoAdvance: true,
 	captionOpacity: 0.3,
