@@ -131,8 +131,8 @@ a{
 .footerlink{
 		background-color: #2e3548;
 		margin-top: 50px;    
-		margin-left:525px;
-		margin-right:525px;
+		margin-left:515px;
+		margin-right:515px;
 		border: 2px solid white ;
 		border-radius: 8px;
 		text-decoration:none;
@@ -141,8 +141,8 @@ a{
 .footerlink1{
 			background-color: #2e3548;
 			margin-top:0px;    
-			margin-left:486px;
-				margin-right:486px;
+			margin-left:560px;
+				margin-right:420px;
 			border: 2px solid white ;
 			border-radius: 8px;
 			text-decoration:none;
@@ -193,4 +193,26 @@ p {
 		text-decoration:none;
 	color:#2e3548;
 	}
+.hpvideos
+{
+	margin-top:550px;
+	margin-right:65px;
+	
+}
+
+
+
+
+
+
+
+
+
+.break
+{
+  height: 20px;
+  background-color:#FFFFFF;
+  clear: both;
+}
+
 
