@@ -285,7 +285,7 @@ overflow: inherit;
     border: thin #d7d7d7 ;
     height: 200px;
     background-color:black;
-    width:1266px;
+    width:100%;
 }
 
 #footer .addr{
@@ -462,7 +462,7 @@ overflow: inherit;
 	background-attachment:inherit;
 }
 
-.centerport{ padding-top:800px; font-size:27px; text-align: center; }
+.centerport{ padding-top:700px; font-size:27px; text-align: center; }
 .centerMember{ padding-top:25px; font-size:27px; text-align: center; }
 .centerPic{overflow: inherit;display: block;margin-left: auto; margin-right: auto; padding-top:25px; font-size:27px; text-align: center;}
 .homePics{}
