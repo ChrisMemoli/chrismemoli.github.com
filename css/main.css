@@ -190,7 +190,7 @@ color:black;
 		font-weight: normal;
 		font-family: ubuntu;
 		text-align:center;
-		font-size: 25px;
+		font-size: 50px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top:-66px;
@@ -203,8 +203,6 @@ color:black;
 .caption{
 	caption-side:bottom;
 }
-
-/*team Members*/		
 		
 .Pic
 {
@@ -224,8 +222,8 @@ overflow: inherit;
 }
 
 .lightBOXimg{
-	width:350px;
-	height:350px;
+	width:400px;
+	height:400px;
 	float:inherit;
 	padding:15px 15px;
 }
