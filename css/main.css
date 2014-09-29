@@ -26,7 +26,8 @@ color:black;
 }
 
 #header {
-			}
+		img src="pdf/portfolio.png" width="1000" height="200" alt="logo"
+        	}
 			
 #header .shadow1,
  
@@ -36,9 +37,6 @@ color:black;
 
 #header .container {
 	position: relative;
-	left: 1px;
-	top: 1px;
-	margin-right: -1px;
 	margin-bottom: 7px;
 	}
  
@@ -46,128 +44,30 @@ color:black;
 	    margin-left:auto;
 	    margin-right:auto;
 		background: #F1F1F1;
-		width:1028px;
+		width:1024px;
 			}
 				
-		
-	#header .shadow2 {
-		background: #DBDbDB;
-		width:1025px;
-			}
- 
-	#header .shadow3 {
-		background: #B8B8B8;
-		width:1023px;
-	}
- 
 	#header .container {
-		height: 110px;
-		width:1011px;
+		height: 111px;
+		width:986px;
 		/*background-color:#e8e8e8;*/
-		background: #ECECEC;
-		border: 1px solid #848284;
-		border-bottom-color:#FFFFFF;
+		background: white;
+		border-top: 15px solid #848284;
+		border-right: 15px solid #848284;
+		border-left: 15px solid #848284;
+		border-bottom: px solid black;
 		padding:4px 4px 4px 4px;
+		
 		}
 		
-	#header .logo{
-	background-image:url('../images/logo.png');
-	background-repeat: no-repeat;
-	height:100px;
-	width:300px;;
-	float:left;
-	margin:3px;
-	}
-			
-	#header .nav{
-	border:black thin #ECECEC;
-	height:100px;
-	width:800px;
-	margin-left:200px;
-	margin-top:3px;
-	padding:5px 5px 10px 5px;
-					}
-	#header .nav ul{
-	list-style:none;
-	padding-top:0px;
-	margin-left:auto;
-	margin-right:auto;
-	padding:50px 5px 20px 20px;
+		#header .logo{
+		background-image:url('../pdf/portfolio.png');
+		background-repeat: no-repeat;
+		height:200px;
+		width:600px;;
+		margin-left:288px;
 		}
-	
-	#header .nav ul li
-	{
-	float: right;
-	border-right: 5px solid #ECECEC;
-	border-left: 5px solid #ECECEC;
-	padding: 5px 10px 10px 10px;
-	margin: 3px;
-	
-	font-weight: normal;
-    text-align:center;
-	font-size: 22px;
-    	}
-   /* #header .icon{
-    
-	border:black thin dotted;
-	height:40px;
-	width:775px;
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:15px;
-
-}*/
-    #header .IconNav1{
-			padding-top:30px;
-			padding-left:50px;
-			height:25px;
-			width:25px;
-			float:left;
-			margin:3px;
-			
-			}  
-	#header .IconNav2{
-			padding-top:30px;
-			padding-left:80px;
-			height:25px;
-			width:25px;
-			float:left;
-			margin:3px;
-			}  
-   #header .IconNav3{
-			padding-top:30px;
-			padding-left:125px;
-			height:25px;
-			width:30px;
-			float:left;
-			margin:3px;
-			
-			}  
-   #header .IconNav4{
-			padding-top:30px;
-			padding-left:125px;
-			height:25px;
-			width:25px;
-			float:left;
-			margin:3px;
-			
-			}  
-
-   #header .IconNav5{
-			padding-top:30px; 
-			padding-left:90px;
-			height:25px;
-			width:25px;
-			float:left;
-			margin:3px;
-			
-			}  
-
-	#header .nav li:first-child
-	{
-	border:none;
-	}
-	
+		
 
 /*content*/
 	
@@ -177,7 +77,7 @@ color:black;
     
 	margin-left:auto;
 	margin-right: auto;
-	padding:30px 30px 30px 30px;
+	padding:40px 30px 30px 30px;
 	margin-bottom:0px;
 	position: relative;
     border-top :thick black solid;
@@ -190,19 +90,21 @@ color:black;
 		font-weight: normal;
 		font-family: ubuntu;
 		text-align:center;
-		font-size: 50px;
+		font-size: 25px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top:-66px;
 		padding: 0px;
 		font-family: 'Ubuntu', sans-serif;
 		
-		} 
+		}
 		
 .aboutContent{text-align:left; font-family: ubuntu;font-size:23px; }
 .caption{
 	caption-side:bottom;
 }
+
+/*team Members*/		
 		
 .Pic
 {
@@ -222,8 +124,8 @@ overflow: inherit;
 }
 
 .lightBOXimg{
-	width:400px;
-	height:400px;
+	width:350px;
+	height:350px;
 	float:inherit;
 	padding:15px 15px;
 }
@@ -283,7 +185,7 @@ overflow: inherit;
     border: thin #d7d7d7 ;
     height: 200px;
     background-color:black;
-    width:100%;
+    width:1266px;
 }
 
 #footer .addr{
@@ -374,68 +276,6 @@ a{
 .center{ text-align: center; }
 .blue{color:#54A1CF;}
 		
-#content .contactborder{
-	border-bottom:thick solid #25757B;
-	border-right:thick solid #25757B;
-    height:150px;
-	width:580px;;
-	float:left;
-	margin:0px;
-	font-size:22px ;
-	padding:20px 20px;
-	font-family:ubuntu;
-}
-#content .contactborder2{
-	border-bottom:thick solid #25757B;
-	border-left:thick solid #25757B;
-	height:275px;
-	width:330px;
-	margin-left:620px;
-	margin-top:0px;
-	font-size:18px ;
-	font-family:ubuntu;
-	padding:5px 5px 10px 5px;
-}
-#content .maptitle{
-		width:600px;
-		float:left;
-		text-align:center;
-		font-weight: normal;
-		font-family: ubuntu;
-		color:#25757B;
-		text-align:center;
-		font-size: 25px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top:-60px;
- 
-}
-#content .map{
-    border:thin solid none;
-	/*border-right:thick solid #25757B;*/
-	float: inherit;
-	height:300px;
-	width:300px;
-	padding:5px 5px;
-	font-size:22px ;
-	margin:0px 150px 0px 150px;
-	font-family:ubuntu;
-	background-image:url('../images/staticmap.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	}
-{
-	border-bottom:thick solid #25757B;
-	border-left:thick solid #25757B;
-	height:auto;
-	width:350px;
-	float:right;
-	margin-left:620px;
-	margin-top:0px;
-	font-size:18px ;
-	font-family:ubuntu;
-	padding:0px;
-}
 #content.portfolio 
 {
 display: block;
@@ -447,24 +287,8 @@ font-size:22px;
 text-align:left; 
 overflow: inherit;
 }
-.cs{
-	border:black thin none;
-	height:50px;
-	width:50px;
-	float: right;
-	margin: 40px -325px 0px 1500px;
-	padding-top:5px;
-	background-image:url('../images/cs.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	background-attachment:inherit;
-}
 
 .centerport{ padding-top:700px; font-size:27px; text-align: center; }
 .centerMember{ padding-top:25px; font-size:27px; text-align: center; }
 .centerPic{overflow: inherit;display: block;margin-left: auto; margin-right: auto; padding-top:25px; font-size:27px; text-align: center;}
 .homePics{}
-
-# br{
-	top:55px;
-}
