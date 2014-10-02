@@ -185,7 +185,8 @@ overflow: inherit;
     border: thin #d7d7d7 ;
     height: 200px;
     background-color:black;
-    display:inherit;
+    width:100%;
+	position:absolute;
 }
 
 #footer .addr{
