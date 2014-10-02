@@ -180,14 +180,16 @@ overflow: inherit;
 		
 /*footer*/	
 	
-#footer{
-    
-    border: thin #d7d7d7 ;
-    height: 200px;
-    background-color:black;
-    width:100%;
-	position:absolute;
-}
+	
+	#footer{
+	    height: 200px;
+	    background-color:black;
+	    width:1150px;
+	    margin-left:auto;
+	    margin-right:auto;
+		margin-bottom:0px;
+	}
+
 
 #footer .addr{
 	    width:750px;
