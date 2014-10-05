@@ -1,7 +1,6 @@
 ﻿#body{
-	margin:-10px;
-	background-color:#0A0101;
-}
+	body {
+	}
 #p1{
 	font-size:5px;color:#d7d7d7;
 }
@@ -15,46 +14,37 @@ background-color:#C5D4D5; }
 a:hover { 
 background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 
-body#home a#homenav,
-body#port a#portnav,
-body#team a#teamnav,
-body#abt a#abtnav,
-body#contact a#connav {
-margin:0px;
-background-color:#C5D4D5;
-color:black;
-}
+
+.underimage {
+		display: inline-block;
+		}
 
 #header {
 		img src="pdf/portfolio.png" width="1000" height="200" alt="logo"
-        	border-bottom:thick solid white;}
+border-bottom:thick solid white;
+        	}
 			
-#header .shadow1,
- 
-#header .shadow2,
-
-#header .shadow3,
 
 #header .container {
 	position: relative;
 	margin-bottom: 7px;
 	}
  
-	#header .shadow1 {
+/*	#header .shadow1 {
 	    margin-left:auto;
 	    margin-right:auto;
 		background: #F1F1F1;
 		width:1023px;
-			}
+*/			}
 				
 	#header .container {
 		height: 111px;
-		width:986px;
+		width:1015px;
 		/*background-color:#e8e8e8;*/
 		background: white;
-		border-top: 15px solid #848284;
-		border-right: 15px solid #848284;
-		border-left: 15px solid #848284;
+		border-top: 15px solid   #d7d7d7
+		border-right: 15px solid #d7d7d7
+		border-left: 15px solid  #d7d7d7
 		border-bottom: px solid black;
 		padding:4px 4px 4px 4px;
 		
@@ -63,9 +53,8 @@ color:black;
 		#header .logo{
 		background-image:url('../pdf/portfolio.png');
 		background-repeat: no-repeat;
-		height:200px;
-		width:600px;;
-		margin-left:265px;
+		height:122px;
+		margin-left:335px;
 		}
 		
 
@@ -73,7 +62,7 @@ color:black;
 	
 		
 #content{
-	width:960px;
+	width:958px;
     
 	margin-left:auto;
 	margin-right: auto;
@@ -81,31 +70,20 @@ color:black;
 	margin-bottom:0px;
 	position: relative;
     border-top :thick black solid;
-    background-color:#d7d7d7;
+  /*  background-color:#d7d7d7;*/
     padding-top:0px;
 }
-	#content .tag{
-		width:960px;
-		text-align:center;
-		font-weight: normal;
-		font-family: ubuntu;
-		text-align:center;
-		font-size: 25px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top:-66px;
-		padding: 0px;
-		font-family: 'Ubuntu', sans-serif;
-		
-		}
-		
 .aboutContent{text-align:left; font-family: ubuntu;font-size:23px; }
 .caption{
 	caption-side:bottom;
 }
 
-/*team Members*/		
-		
+/*portfolio page*/		
+		.content img {
+			display: inline;
+			border: 2px solid white; 
+			margin:8px;
+		}
 .Pic
 {
 display: block;
@@ -122,6 +100,7 @@ overflow: inherit;
 	margin:25px 25px;width:220px; height:200px; border:1px solid black; padding:15px 15px; float:left;
 	
 }
+/*javascript lightbox*/
 
 .lightBOXimg{
 	width:350px;
@@ -165,7 +144,7 @@ overflow: inherit;
 		}
 		
 		
-.membernames{
+.sitenames{
 	border:thin #d7d7d7 dotted;
 	height:30px;
 	width:220px;
@@ -178,120 +157,50 @@ overflow: inherit;
 	
 }
 		
-/*footer*/	
+.sitename{
+	border:thin #d7d7d7 dotted;
+	height:30px;
+	width:220px;
+	margin: -10px 25px -10px 25px;
+	padding:5px 15px 5px 15px;
+	text-align:center;
+    /*background-position:center;*/
+	float:left;
+	font-family:ubuntu;
+		padding-bottom:24px;
+}
 	
-	
-	#footer{
-	    height: 200px;
-	    background-color:black;
-	    width:1150px;
-	    margin-left:auto;
-	    margin-right:auto;
-		margin-bottom:0px;
-	}
 
 
-#footer .addr{
-	    width:750px;
-	    border:black thin none;
+.addr{
 	  	font-weight:normal;
 		font-family:asap;
-		font-size: 16px;
-		margin-left:100px;
-		padding-top:0px;
-	 	margin-top:-20px;
-	 	color:#54A1CF;
+		font-size: 23px;
+		text-align:center;
     }
-#footer .addrimg{
-    margin-left:53px;
-	background-image:url('../images/addr.png');
-	background-position:left;
-	background-repeat:no-repeat;
-	height:24px;
-	padding-top:0px;
-}
-#footer .nav{
-	
-	border:white thin none;
-	height:60px;
-	width:550px;
-	float: left;
-	margin:3px;
-	padding-top:5px;
-	
-	}
-a{
-    
-	text-decoration:none;
-	font-family:ubuntu;
-	}
-
-
-#footer .nav ul{
-	list-style:none;
-}
-#footer .nav ul li{
-	float:left;
-	border-left: 1px solid #fff;
-	padding: 0px 10px;
-	font-family: asap;
-	color:#FFFFFF;
-	
-}
-#footer .nav li:first-child{
-	border:none;
-}
-
-#footer .feedback{
-	font-weight:normal;
-	font-family:asap;
-	font-size: 16px;
-	margin-top:80px;
-	text-align:center;
-	color:#54A1CF;
-}
-#footer .facebook{
-	border:black thin none;
-	height:50px;
-	width:50px;
-	float: right;
-	margin: 40px -325px 0px 1500px;
-	padding-top:5px;
-	background-image:url('../images/facebook.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	background-attachment:inherit;
-}
-#footer .SCG{
-	font-weight:normal;
-	font-family:asap;
-	font-size: 16px;
-	border:black thin none;
-	margin-top:140px;
-	margin-right:50px;
-	text-align: right;
-	color:#54A1CF;
-}
-
-
-.black{color: #000000;}
-.white{color: #FFFFFF;}
-.center{ text-align: center; }
-.blue{color:#54A1CF;}
-		
-#content.portfolio 
-{
-display: block;
-margin-left:10px; 
-margin-right:10px; 
-padding-left:18px;
-padding-top:20px; 
-font-size:22px; 
-text-align:left; 
-overflow: inherit;
-}
 
 .centerport{ padding-top:700px; font-size:27px; text-align: center; }
 .centerMember{ padding-top:25px; font-size:27px; text-align: center; }
 .centerPic{overflow: inherit;display: block;margin-left: auto; margin-right: auto; padding-top:25px; font-size:27px; text-align: center;}
 .homePics{}
+#padding {margin:25px 25px;width:220px; height:200px; border:1px solid black; padding:15px 15px; float:left;}
+
+
+.port{
+	text-align:center;
+	font-size:44px;
+}
+	.pad{
+		padding-left:45px;
+		padding-right:45px;
+	font-size:22px;
+	}
+.aboutport{	
+		padding-left:45px;
+		padding-right:45px;
+}
+.portlink{
+		padding-left:45px;
+		padding-right:45px;
+		border-bottom:solid black thin;
+	}
