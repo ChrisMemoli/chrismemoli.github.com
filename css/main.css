@@ -20,10 +20,16 @@ background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 		}
 
 #header {
-		img src="pdf/portfolio.png" width="1000" height="200" alt="logo"
-border-bottom:thick solid white;
-        	}
-			
+	padding-left:322px;
+        
+
+}
+
+.portfolio {
+    font-size: 60.5px;
+    font-family: 'Waiting For The Sunrise', cursive; 
+    color: #blue
+}			
 
 #header .container {
 	position: relative;
@@ -54,7 +60,7 @@ border-bottom:thick solid white;
 		background-image:url('../pdf/portfolio.png');
 		background-repeat: no-repeat;
 		height:122px;
-		margin-left:470px;
+		/*margin-left:335px;*/
 		}
 		
 
@@ -69,7 +75,8 @@ border-bottom:thick solid white;
 	padding:40px 30px 30px 30px;
 	margin-bottom:0px;
 	position: relative;
-    border-top :thick black solid;
+    border-left :thin black solid;
+ border-right :thin black solid;
   /*  background-color:#d7d7d7;*/
     padding-top:0px;
 }
