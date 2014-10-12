@@ -56,12 +56,7 @@ background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 		
 		}
 		
-		#header .logo{
-		background-image:url('../pdf/portfolio.png');
-		background-repeat: no-repeat;
-		height:122px;
-		/*margin-left:335px;*/
-		}
+		
 		
 
 /*content*/
@@ -77,8 +72,7 @@ background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 	position: relative;
     border-left :thin black solid;
  border-right :thin black solid;
-  /*  background-color:#d7d7d7;*/
-    padding-top:0px;
+      padding-top:0px;
 }
 .aboutContent{text-align:left; font-family: ubuntu;font-size:23px; }
 .caption{
