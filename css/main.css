@@ -205,3 +205,8 @@ overflow: inherit;
 		padding-right:45px;
 		border-bottom:solid black thin;
 	}
+
+	.font{
+		text-align:center;
+		font-size:44px;
+	}
