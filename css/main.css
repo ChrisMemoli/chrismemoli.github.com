@@ -46,7 +46,6 @@ background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 	#header .container {
 		height: 111px;
 		width:1015px;
-		/*background-color:#e8e8e8;*/
 		background: white;
 		border-top: 15px solid   #d7d7d7
 		border-right: 15px solid #d7d7d7
@@ -73,7 +72,9 @@ background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
     border-left :thin black solid;
  border-right :thin black solid;
       padding-top:0px;
+	box-shadow:10px 10px 5px #888888;
 }
+
 .aboutContent{text-align:left; font-family: ubuntu;font-size:23px; }
 .caption{
 	caption-side:bottom;
