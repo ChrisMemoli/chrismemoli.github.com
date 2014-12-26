@@ -89,6 +89,7 @@ p{color:white;}
 /*link box*/
 ul#menu {
 	    padding-top: 20px;
+	text-align:center;
 	}
 
 ul#menu li {
