@@ -27,7 +27,9 @@ color: #000000;
 	text-align:center;
 	padding:50px 65px;
 	background-color:black;
-	margin:0px 75px;
+	margin-left:75px;
+	margin-right:75px;
+	margin-top:350px;
 }
 .photos{
 	color:white;
