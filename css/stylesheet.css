@@ -22,10 +22,11 @@ color: #000000;
 	text-align:center;
 }
 .whatIdo{
+	opacity: 0.8;
 	padding-top:390px;
 	color:white;
 	text-align:center;
-	padding:50px 65px;
+	padding:21px 65px;
 	background-color:black;
 	margin-left:75px;
 	margin-right:75px;
