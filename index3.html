@@ -1,17 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html>
 	<head>
 		<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
 		<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
 		<title>The Chris Memoli Story</title>
-		<title></title>
 	</head>
 	<body>
 		<div id="wrapper">
 			<div class="head">
 				<img src="images/educating.png" height="400px" width="440px">
-				<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=760 height=400></a>
+				<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border="0" width="760" height="400"></a>
 			</div>
 			<ul id="menu">
 				<li><a href="index.html">Home</a></li>
@@ -50,8 +48,8 @@
 		<div class="copy">Chris Memoli © 2014</div>
 		<script language="JavaScript1.1">
 			/*JavaScript Image slideshow:*/
-			var slideimages=new Array();
-			var slidelinks=new Array();
+			var slideimages = new Array();
+			var slidelinks = new Array();
 			function slideshowimages(){
 				for(i = 0; i < slideshowimages.arguments.length; i++){
 					slideimages[i] = new Image();
@@ -80,7 +78,7 @@
 			function slideit(){
 				if(!document.images) return;
 
-				document.images.slide.src=slideimages[whichimage].src;
+				document.images.slide.src = slideimages[whichimage].src;
 				whichlink = whichimage;
 
 				if(whichimage<slideimages.length-1) whichimage++;
