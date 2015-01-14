@@ -1,114 +1,134 @@
-<!doctype html>
-<html>
-	<head>
-		<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
-		<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
-		<title>The Chris Memoli Story</title>
-	</head>
-	<body>
-		<div id="wrapper">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="html/css" href="css/stylesheet.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
+
+<title>The Chris Memoli Story</title>
+	<script language="JavaScript1.1">
+	
+	/*
+	JavaScript Image slideshow:
+	*/
+
+ 	var slideimages=new Array()
+	var slidelinks=new Array()
+	function slideshowimages(){
+	for (i=0;i<slideshowimages.arguments.length;i++){
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+	}
+
+	function slideshowlinks(){
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+	}
+
+	function gotoshow(){
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+	}
+
+	//-->
+	</script>
+
+	
+<title></title>
+</head>
+<body>
+	<div id="wrapper">
 			<div class="head">
 				<img src="images/educating.png" height="400px" width="440px">
-				<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border="0" width="760" height="400"></a>
-			</div>
-			<ul id="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="html_lists.asp">My Story</a></li>
-				<li><a href="whatIdo.html">What I Do</a></li>
-				<li><a href="HowITaffectedFAM.html">How It Affected Family</a></li>
-				<li><a href="html_lists.asp">Media</a></li>
-				<li><a href="Photos.html">Photos</a></li>
-				<li><a href="html_lists.asp">Testimonials</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+				
+		<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border=0 width=760 height=400></a>
+		<script>
+		<!--
+
+		slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg")
+		var slideshowspeed=2000
+
+		var whichlink=0
+		var whichimage=0
+		function slideit(){
+		if (!document.images)
+		return
+		document.images.slide.src=slideimages[whichimage].src
+		whichlink=whichimage
+		if (whichimage<slideimages.length-1)
+		whichimage++
+		else
+		whichimage=0
+		setTimeout("slideit()",slideshowspeed)
+		}
+		slideit()
+
+		//-->
+		</script>
+				</div>
+
+					<ul id="menu">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="html_lists.asp">My Story</a></li>
+					 <li><a href="whatIdo.html">What I Do</a></li>
+					 <li><a href="HowITaffectedFAM.html">How It Affected Family</a></li>
+					 <li><a href="html_lists.asp">Media</a></li>
+					 <li><a href="Photos.html">Photos</a></li>
+					 <li><a href="html_lists.asp">Testimonials</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+				</ul>
+
 			<div class="story">
-				<p>
-					Going out and telling my story is very important to me for I feel that no one should have to go through what I went through, and if I can prevent just one person from making the same mistake, well then I did a great job, I can say that I saved someones life!!
-				</p>
+				<p>	Going out and telling my story is very important to me for I feel that no one should have to go through what I went through, and if I can prevent just one person from making the same mistake, well then I did a great job, I can say that I saved someones life!!<p/>
 			</div>
-			<div class="ytube">
-				<center><u> <h1> pix11 interview</h1> </u></center>
-				<iframe width="260" height="300" src="http://www.youtube.com/embed/6AbCOayyKYs?wmode=transparent" frameborder="2" allowfullscreen></iframe>
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				<iframe width="260" height="300" src="http://www.youtube.com/embed/b1-j-NrUifw?wmode=transparent" frameborder="2" allowfullscreen></iframe>
-			</div>
-			<br="clear"/>
-			<div class="whatIdo">
-				<p>
-					On July 6, 2002, at the age of Seventeen I was involved in a terrible car accident that has altered my life forever. I suffer from Traumatic Brain Injury and have undergone rehabilitation for many years to learn to use my hands and learn to walk again. I never regained my speech back. In conjunction with my family, I created a 45 minute presentation that sends a strong message to youths entering the driving age.
-				</p>
-			</div>
-			<div class="sm">
-				<a href="https://twitter.com/TheMemoliStory" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheMemoliStory</a>
-				<div id="fb-root"></div>
-				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FChris-Memoli-Website%2F106307059456574&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
-			</div>
-		</div>
-		<br class="clear"/>
-		<div class="copy">Chris Memoli © 2014</div>
-		<script language="JavaScript1.1">
-			/*JavaScript Image slideshow:*/
-			var slideimages = new Array();
-			var slidelinks = new Array();
-			function slideshowimages(){
-				for(i = 0; i < slideshowimages.arguments.length; i++){
-					slideimages[i] = new Image();
-					slideimages[i].src = slideshowimages.arguments[i];
-				}
-			}
-			function slideshowlinks(){
-				for(i = 0; i < slideshowlinks.arguments.length; i++){
-					slidelinks[i]=slideshowlinks.arguments[i];
-				}
-			}
-			function gotoshow(){
-				if (!window.winslide||winslide.closed){
-					winslide = window.open(slidelinks[whichlink]);
-				}else{
-					winslide.location = slidelinks[whichlink];
-					winslide.focus();
-				}
-			}
-		</script>
-		<script>
-			slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg");
-			var slideshowspeed = 2000,
-				whichlink = 0,
-				whichimage = 0;
-			function slideit(){
-				if(!document.images) return;
 
-				document.images.slide.src = slideimages[whichimage].src;
-				whichlink = whichimage;
+										<div class="ytube">
+						<center><u> <h1> pix11 interview</h1> </u></center>
+	
+						<iframe width="260" height="300" src="http://www.youtube.com/embed/6AbCOayyKYs?wmode=transparent" frameborder="2" allowfullscreen></iframe>				
+	&nbsp;&nbsp;	&nbsp;&nbsp;	
+						<iframe width="260" height="300" src="http://www.youtube.com/embed/b1-j-NrUifw?wmode=transparent" frameborder="2" allowfullscreen></iframe>
+										</div>
 
-				if(whichimage<slideimages.length-1) whichimage++;
-				else whichimage = 0;
 
-				setTimeout("slideit()",slideshowspeed);
-			}
-			slideit();
-		</script>
-		<script>
-			!function(d, s, id){
-				var js,
-					fjs = d.getElementsByTagName(s)[0],
-					p = /^http:/.test(d.location)?'http':'https';
-				if(!d.getElementById(id)){
-					js = d.createElement(s);
-					js.id = id;
-					js.src = p + '://platform.twitter.com/widgets.js';
-					fjs.parentNode.insertBefore(js, fjs);
-				}
-			}(document, 'script', 'twitter-wjs');
-		</script>
-		<script>
-			(function(d, s, id){
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-				fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-		</script>
-	</body>
+<br="clear"/>
+
+																										<div class="whatIdo">
+										On July 6, 2002, at the age of Seventeen I was involved in a terrible car accident that has altered my life forever. I suffer from Traumatic Brain Injury and have undergone rehabilitation for many years to learn to use my hands and learn to walk again. I never regained my speech back. In conjunction with my family, I created a 45 minute presentation that sends a strong message to youths entering the driving age.</p> 
+
+
+																										</div>
+										
+										
+										<div class="sm">
+											<a href="https://twitter.com/TheMemoliStory" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheMemoliStory</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+											<div id="fb-root"></div>
+											<script>(function(d, s, id) {
+											  var js, fjs = d.getElementsByTagName(s)[0];
+											  if (d.getElementById(id)) return;
+											  js = d.createElement(s); js.id = id;
+											  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+											  fjs.parentNode.insertBefore(js, fjs);
+											}(document, 'script', 'facebook-jssdk'));</script>
+
+
+											<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FChris-Memoli-Website%2F106307059456574&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+
+											</div>
+
+
+	</div>
+	<br class="clear"/>
+<div class="copy">
+	Chris Memoli © 2014
+</div>	
+</body>
 </html>
