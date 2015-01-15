@@ -46,30 +46,7 @@
 		</div>
 		<br class="clear"/>
 		<div class="copy">Chris Memoli © 2014</div>
-		<script language="JavaScript1.1">
-			/*JavaScript Image slideshow:*/
-			var slideimages = new Array();
-			var slidelinks = new Array();
-			function slideshowimages(){
-				for(i = 0; i < slideshowimages.arguments.length; i++){
-					slideimages[i] = new Image();
-					slideimages[i].src = slideshowimages.arguments[i];
-				}
-			}
-			function slideshowlinks(){
-				for(i = 0; i < slideshowlinks.arguments.length; i++){
-					slidelinks[i]=slideshowlinks.arguments[i];
-				}
-			}
-			function gotoshow(){
-				if (!window.winslide||winslide.closed){
-					winslide = window.open(slidelinks[whichlink]);
-				}else{
-					winslide.location = slidelinks[whichlink];
-					winslide.focus();
-				}
-			}
-		</script>
+		<script src="js/slider.js"></script>
 		<script>
 			slideshowimages("images/avill.jpg", "images/lakes.jpg", "images/conference.PNG", "images/upstate.PNG", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg","images/car2.jpg", "images/car.jpg","images/coma1.jpg","images/fly.jpg");
 			var slideshowspeed = 2000,
