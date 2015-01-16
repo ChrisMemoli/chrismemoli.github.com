@@ -108,17 +108,18 @@ a{
 .h2  { font-family: "times new roman", serif; }
 .h1{font-size:45px; color:#000000;}
 
+
 .what_i_do{
 	margin-top:-33px;
-	margin-right: 211px;
+	margin-right: 100px;
 	margin-left:200px; 
 	border: 2px solid white; 
 	font-size: 130%; 
 	padding:18px;
 	border-radius: 15px;
 	background:gray;
+	
 }
-
 .red { color: #E01930; font-size: 25px;font-weight: bold;}
 
 .footer{	
