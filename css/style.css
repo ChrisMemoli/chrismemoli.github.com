@@ -101,6 +101,7 @@ a{
 	clear: both;
 }
 .content img {
+	margin-right: 15px;
 	display: inline;
 	border: 2px solid white; 
 	
@@ -115,6 +116,7 @@ a{
 	margin-left:200px; 
 	border: 2px solid white; 
 	font-size: 130%; 
+	margin-bottom: 25px;
 	padding:18px;
 	border-radius: 15px;
 	background:gray;
@@ -154,6 +156,7 @@ a{
 color:#2e3548;
 }
 .underimage {
+
 		display: inline-block;
 		}
 
