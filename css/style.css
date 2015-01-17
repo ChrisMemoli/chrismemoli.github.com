@@ -25,7 +25,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
 	border-width: 0px;
 	border-color: white;
 }
-.left_container .links {
+.left_container .s {
 	border: 2px solid white;
 	padding: 10px;
 	border-width: 4px;
@@ -61,8 +61,8 @@ a{
 	border: 2px solid white ;
 	border-radius: 8px;
 	text-decoration:none;
-	margin-left:14%;
-	margin-right:12%;
+	margin-left:20%;
+	margin-right:13%;
 }
 .link a{
 	padding:0px 10px;
@@ -93,7 +93,8 @@ a{
     padding-bottom:23px;
 	padding-right:23px;
 	padding-left:23px;
-	width:800px;
+	margin-right:100px;
+	margin-left:200px;
 /*	float:right;*/
 	background:gray;
 }
