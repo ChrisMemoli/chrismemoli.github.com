@@ -210,6 +210,21 @@ p {
 }
 
 
+.cm{
+	width: 145px;
+	height: 100px;
+
+}
+.cmbig{
+	position: absolute;
+	width: 0px;
+	-webkit-transition:width 0.3s linear 0s;
+	transition:width 0.3s linear 0s;
+	z-index: 10px;
+}
+.cm:hover + .cmbig{
+	width: 200px;
+}
 
 
 
