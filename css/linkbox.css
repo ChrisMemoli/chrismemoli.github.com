@@ -9,19 +9,19 @@ body {
 }
 
 .nav {
-	margin: 0px 15%;
+	margin: 0px 0%;
 	padding: 0px;
 	list-style: none;
 }
 
 .nav li {
 	float: left;
-	width: 200px;
+	width: 	125px;
 	position: relative;
 }
 
 .nav li a {
-	background: #333;
+	background: #2e3540;
 	color: #fff;
 	display: block;
 	padding: 7px 8px;
@@ -44,6 +44,6 @@ body {
 }
 
 .nav ul li {
-	width: 200px;
+	width: 125px;
 	float: left;
 }
