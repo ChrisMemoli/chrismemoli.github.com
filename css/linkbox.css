@@ -1,7 +1,4 @@
-h1 {
-  font-family: Helvetica;
-  font-weight: 100;
-}
+
 body {
   color:#333;
   text-align:center;
@@ -11,6 +8,7 @@ body {
 .nav {
 	margin: 0px 0%;
 	padding: 0px;
+	margin-left: 255px;
 	list-style: none;
 }
 

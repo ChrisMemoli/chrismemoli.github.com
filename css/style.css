@@ -20,8 +20,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
 .left_container {
 	float: left;
 	margin: 10px;
-	max-width:250px;
-	min-width:250px;
+	max-width:194px;
 	border-width: 0px;
 	border-color: white;
 }
@@ -78,14 +77,14 @@ a{
 	border-width: 1px;
 	border-color: Black;
 	margin-top:50px;
-	margin-bottom:50px;
-
+	margin-bottom:0px;
+	font-family: initial;
 }
 .content .heading {
 	border: 0px solid white ;
 	margin-bottom:50px;
 	border-radius: 15px;
-
+	margin-right: 121px;
 }
 .contact{
 	border: 2px solid white ;
@@ -106,13 +105,14 @@ a{
 	margin-right: 15px;
 	display: inline;
 	border: 2px solid white; 
-	
+	margin-top: 25px;
 }
 .h2  { font-family: "times new roman", serif; }
 .h1{font-size:45px; color:#000000;}
 
 
 .what_i_do{
+	font-family: initial;
 	margin-top:-33px;
 	margin-right: 100px;
 	margin-left:200px; 
