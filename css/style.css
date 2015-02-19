@@ -11,7 +11,6 @@ h8 { font-family: sans-serif; font-size: 120%; }
 	margin: 0 auto;
 	padding-top: 10px;
  	width: 1210px;
-	border-radius: 15px;
 	overflow:inherit;
 	border: 2px solid white;
  /*   overflow: inherit; trying to get  the image to  b the leangth of the page
@@ -86,7 +85,7 @@ a{
 	border-radius: 15px;
 	margin-left: 75px;
 }
-.contact{
+.contact1{
 	border: 2px solid white ;
 	margin: 0 auto;
 	border-radius: 15px;
@@ -97,6 +96,14 @@ a{
 	margin-left:164px;
 /*	float:right;*/
 	background:gray;
+}
+.contact{
+    padding-bottom:23px;
+	padding-right:23px;
+	padding-left:23px;
+	margin-right:157px;
+	margin-left:164px;
+/*	float:right;*/
 }
 .clear {
 	clear: both;
@@ -113,14 +120,14 @@ a{
 
 .what_i_do{
 	margin-top:-33px;
-	margin-right: 157px;
-	margin-left:164px; 
+	margin-right: 132px;
+	margin-left:139px; 
 	border: 2px solid white; 
 	font-size: 130%; 
 	margin-bottom: 25px;
 	padding:18px;
-	border-radius: 15px;
-	background:gray;
+	border-radius: px;
+	background:#FFFFFF;
 	
 }
 .red { color: #E01930; font-size: 25px;font-weight: bold;}
@@ -246,5 +253,3 @@ p {
   background-color:#FFFFFF;
   clear: both;
 }
-
-
