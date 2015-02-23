@@ -76,5 +76,5 @@ function gotoshow(){
 		
 //fade in code
 $(document).ready(function () {
-    $('div.hidden').fadeIn(800).removeClass('hidden');
+    $('div.hidden').fadeIn(1100).removeClass('hidden');
 });
