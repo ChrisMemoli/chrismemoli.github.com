@@ -83,7 +83,7 @@ a{
 	border: 0px solid white ;
 	margin-bottom:50px;
 	border-radius: 15px;
-	margin-left: 75px;
+	margin-left: 130px;
 }
 .contact{
     padding-bottom:23px;
@@ -231,6 +231,9 @@ p {
 }
 
 
+div.hidden {
+    display: none
+}
 
 
 

@@ -71,3 +71,10 @@ function gotoshow(){
 				setTimeout("slideit()", slideshowspeed);
 			}
 			slideit();
+
+			
+		
+//fade in code
+$(document).ready(function () {
+    $('div.hidden').fadeIn(800).removeClass('hidden');
+});
