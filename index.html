@@ -5,6 +5,17 @@
 		<title>Chris Memoli Story</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/memoli2.ioc.png">
 
+<!--drop down menu-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script> 
+
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/cssdrop.css" >
+  <script src="js/jsdrop.js"></script>
+
+
 		<!-- stylesheet for the website -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -13,6 +24,8 @@
   <!-- Source our javascript file with the jQUERY code -->
     <script src="js/linkbox.js"></script>
     <link rel="stylesheet" href="css/linkbox.css" />
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
 
 	</head>
 	<body background="">
@@ -37,7 +50,46 @@
 					</div>
 				</center>
 
-					    <!-- Use this navigation div as your menu bar div -->
+<div style="margin-left:15%";>
+  
+  
+ <DIV class="navmenu"> 
+        
+        <UL id="cssdropdown"> 
+            <LI class="headlink" style="width: px;"> 
+					  				<a href="index.html">Home</a>
+            </LI> 
+
+
+            <LI class="headlink" style="width:189px;"> 
+                <A href="#">My story</A> 
+
+                <UL style="display: none; "> 
+               		<li><a href="My_Life.html">My Life</a></li>
+					<li><a href="what-i-do.html">My Mission</a></li>
+					<li><a href="how affects family.html">Effected my family</a></li>
+                </UL> 
+            </LI> 
+            <LI class="headlink"> 
+					  				<a href="pictures.html">Photos</a>
+
+            </LI> 
+            <LI class="headlink" style="width: px;"> 
+					  				<a href="press.html">Press</a>
+            </LI> 
+          <LI class="headlink" style="width: px;"> 
+					  				<a href="http://www.thechrismemolistory.com">Blog</a>
+          </LI> 
+          <LI class="headlink" > 
+									<span class="email"><div class='contact_link'><a href="mailto:memolichris@gmail.com">Contact</a>      </LI> 
+        </UL> 
+ </div>  
+   </div>
+
+ 
+
+
+					    <!-- Use this navigation div as your menu bar div 
 					  	<div class="navigation">
 					  		<ul class="nav">
 					  			<li>
@@ -68,19 +120,34 @@
 
 					  		</ul>
 					  	</div>
-									
+-->
+
+ 									<!--slideshow-->
+									<div id = "sliderFrame">
+	        <div id="slider">
+	                <img src="images/fly.jpg" alt="2012 Grad School Graduation" />
+	            	<img src="images/upstate.PNG" alt="2015 NYS Highway Safety Conference" />
+	                <img src="images/coma1.jpg" alt="Me in coma" />
+		            <img src="images/avill.jpg" alt="Amityvill Highschool" />
+	                <img src="images/car.jpg" alt="The jeep" />
+		            <img src="images/memmom.jpg" alt="2012 Award ceremony"/>
+		            <img src="images/patmed.png" alt="Pat-med Highschool"/>
+		            <img src="images/conference.PNG" alt="2015 NYS Highway Safety Conference"/>
+	        	</div>
+	        </div>
+			
 
 
 					  		<!--slideshow-->
-				<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border="0" width="650" height="475"></a>
+				<a href="javascript:gotoshow()"><img src="images/fly.jpg" name="slide" border="0" width="0" height="">0</a>
 			
 							<!--youtube videos-->
-				<center><u> <h1>pix11 interview</h1> </u></center>
+			<div class="pix"><u> <h1>pix11 interview</h1> </u>
 				<iframe width="305" height="315" src="http://www.youtube.com/embed/b1-j-NrUifw?wmode=transparent"
 				 frameborder="2" allowfullscreen></iframe>
 				<iframe width="305" height="315" src="http://www.youtube.com/embed/6AbCOayyKYs?wmode=transparent"
 				 frameborder="0" allowfullscreen></iframe>
-			
+			</div>
 
 						<div class="footer">
 							
@@ -94,3 +161,4 @@
 		<script src="js/slider.js"></script>
 	</body>
 </html>
+

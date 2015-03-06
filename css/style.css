@@ -5,7 +5,10 @@ a:hover {font-weight:bold; color: red;}
 
 h8 { font-family: sans-serif; font-size: 120%; }
 
-
+.pix{
+	text-align: center;
+	margin-top: 460px;
+}
 .wrapper {
 	background:url('../images/bg5.png') top left repeat;
 	margin: 0 auto;
