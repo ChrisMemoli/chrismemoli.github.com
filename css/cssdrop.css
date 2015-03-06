@@ -12,7 +12,7 @@
       #cssdropdown li.headlink a:hover { background-color: #2e3540; font-weight: bold; }
     #cssdropdown li.headlink ul { display: none; border-top: 1px white solid; text-align: left; }
     #cssdropdown li.headlink:hover ul { display: block; text-decoration: none; }
-    #cssdropdown li.headlink ul li a { padding: 5px; height: 28px; border: 1px solid white;}
+    #cssdropdown li.headlink ul li a { padding: 20px; height: 28px; border: 1px solid white;}
     #cssdropdown li.headlink ul li a:hover { background-color: #2e3540; text-decoration: none; font-weight: normal; }
     /* #cssdropdown a { color: #CCE9F5; } */
       #cssdropdown ul li a:hover { text-decoration: none; }
