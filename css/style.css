@@ -7,7 +7,6 @@ h8 { font-family: sans-serif; font-size: 120%; }
 
 .pix{
 	text-align: center;
-	
 }
 .wrapper {
 	background:url('../images/bg5.png') top left repeat;
@@ -84,12 +83,14 @@ a{
 
 }
 .content .heading {
+	text-align: center;
 	border: 0px solid white ;
 	margin-bottom:50px;
 	border-radius: 15px;
 	margin-left: 130px;
 }
 .contact{
+	text-align: center;
     padding-bottom:23px;
 	padding-right:23px;
 	padding-left:23px;
@@ -185,6 +186,7 @@ p {
 .inside{
 	padding-top:30;
 	position:relative;
+	margin-right: 2%;
 }
 .footerlinks{	
 	background-color: #2e3548;
@@ -212,7 +214,7 @@ p {
 	margin-right:65px;
 	
 }
-
+ 
 
 .cm{
 	width: 145px;
