@@ -6,6 +6,8 @@ a:hover {font-weight:bold; color: red;}
 h8 { font-family: sans-serif; font-size: 120%; }
 
 .pix{
+	color: black;
+	font-size: 32px;
 	text-align: center;
 }
 .wrapper {
@@ -133,7 +135,7 @@ a{
 	margin-bottom:50px;
 	border-radius: 15px;
 	text-align:center;
-/*	float:bottom; */
+	color: black;
 }
 .footerlink{
 		background-color: #2e3548;
