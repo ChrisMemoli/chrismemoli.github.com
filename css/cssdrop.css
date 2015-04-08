@@ -1,22 +1,59 @@
-    #cssdropdown, #cssdropdown ul { font-size: 9px; background-color: #2e3540; 
-  color: #fff;
-  display: block;
-  padding: 7px 8px;
-  text-decoration: none;
-  border: 1px solid white;
- list-style: none; }
-    #cssdropdown, #cssdropdown * { padding: 0; margin: 0; }
-    #cssdropdown li.headlink { width: 140px; float: left; margin-left: -1px; border: 1px white solid;
-          background-color: #2e3540; text-align: center; }
-    #cssdropdown li.headlink a { display: block; color: #ffffff; padding: 7px 0px; text-decoration: none; }
-      #cssdropdown li.headlink a:hover { color: red; background-color: #2e3540; font-weight: bold; }
-    #cssdropdown li.headlink ul { display: none; border-top: 1px white solid; text-align: left; }
-    #cssdropdown li.headlink:hover ul { display: block; text-decoration: none; }
-    #cssdropdown li.headlink ul li a { padding-top: 10px; height: 28px; font-size: 14px; border-bottom: 1px solid white;}
-    #cssdropdown li.headlink ul li a:hover { background-color: #2e3540; text-decoration: none; font-weight: normal; }
+    #cssdropdown, #cssdropdown ul { 
+          font-size: 9px; 
+          background-color: #2e3540; 
+          color: #fff;
+          display: block;
+          padding: 7px 8px;
+          text-decoration: none;
+          border: 1px solid white;
+          list-style: none; }
+    #cssdropdown, #cssdropdown * { 
+      padding: 0;
+       margin: 0; }
+    #cssdropdown li.headlink {
+     width: 140px;
+      float: left;
+       margin-left: -1px;
+        border: 1px white solid;
+          background-color: #2e3540;
+           text-align: center; }
+    #cssdropdown li.headlink a { display: block;
+     color: #ffffff;
+      padding: 7px 0px;
+       text-decoration: none; }
+      #cssdropdown li.headlink a:hover { 
+        color: red; 
+        background-color: #2e3540; 
+        font-weight: bold; }
+    #cssdropdown li.headlink ul { 
+      display: none; 
+      border-top: 1px white solid; 
+      text-align: left; }
+    #cssdropdown li.headlink:hover ul { 
+      display: block;
+       text-decoration: none; }
+    #cssdropdown li.headlink ul li a { 
+      padding-top: 10px; 
+      height: 28px; 
+      font-size: 14px;
+       border-bottom: 1px solid white;}
+    #cssdropdown li.headlink ul li a:hover { 
+      background-color: #2e3540; 
+      text-decoration: none; 
+      font-weight: normal; }
     /* #cssdropdown a { color: #CCE9F5; } */
-      #cssdropdown ul li a:hover { color:red; text-decoration: none; }
-    #cssdropdown li.headlink { background-color:#2e3540; }
-    #cssdropdown li.headlink ul { background-color: #2e3540; background-position: bottom;  padding-bottom: 8px; border-left: 1px white solid; border-top: 1px white solid; border-right: 1px white solid; }
+      #cssdropdown ul li a:hover {
+       color:red;
+        text-decoration: none; }
+    #cssdropdown li.headlink {
+     background-color:#2e3540; }
+    #cssdropdown li.headlink ul {
+     background-color: #2e3540;
+      background-position: bottom;
+        padding-bottom: 8px;
+         border-left: 1px white solid; 
+         border-top: 1px white solid; 
+         border-right: 1px white solid; }
     #cssdropdown, #cssdropdown ul {
   
+.navmenu{margin-left:14%; padding-right:106px;}

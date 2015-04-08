@@ -4,7 +4,11 @@ a:active {text-decoration: none}
 a:hover {font-weight:bold; color: red;}
 
 h8 { font-family: sans-serif; font-size: 120%; }
-
+.pad{
+	margin-left:11%;
+ margin-right:42px;
+  padding-right:106px;
+}
 .pix{
 	color: black;
 	font-size: 32px;
@@ -16,6 +20,7 @@ h8 { font-family: sans-serif; font-size: 120%; }
 	padding-top: 10px;
  	width: 1210px;
 	overflow:inherit;
+	text-align: center;
 	border: 2px solid white;
  /*   overflow: inherit; trying to get  the image to  b the leangth of the page
    */ 
@@ -89,7 +94,7 @@ a{
 	border: 0px solid white ;
 	margin-bottom:50px;
 	border-radius: 15px;
-	margin-left: 130px;
+	margin-left: 0px;
 }
 .contact{
 	text-align: center;
@@ -182,7 +187,7 @@ body
 	border:10px;
 }
 p {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: bold;
 }
 .inside{
