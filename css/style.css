@@ -27,6 +27,16 @@ h8 { font-family: sans-serif; font-size: 120%; }
  /*   overflow: inherit; trying to get  the image to  b the leangth of the page
    */ 
 }
+.wrapper2 {
+	background:url('../images/bg5.png') top left repeat;
+	margin: 0 auto;
+	padding-top: 10px;
+ 	width: 1100px;
+ 	height: 1000px
+	overflow:inherit;
+	text-align: center;
+	border: 2px solid white;
+}
 .left_container {
 	float: left;
 	margin: 10px;
@@ -135,11 +145,13 @@ a{
 }
 .red { color: #E01930; font-size: 25px;font-weight: bold;}
 
-.footer{	
+.footer{
+	
+	padding: 9px 0px;	
 	font-size: 22px;
 	margin-left:211px;
 	margin-right:200px;
-	margin-top:20px;
+	margin-top:65px;
 	border: 2px solid white ;
 	margin-bottom:50px;
 	border-radius: 15px;
