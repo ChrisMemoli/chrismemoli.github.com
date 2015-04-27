@@ -1,18 +1,10 @@
 ﻿#body{
 	body {
 	}
-#p1{
-	font-size:5px;color:#d7d7d7;
 }
 
 /*links in navigation*/
 
-a:visited {
-background-color:#C5D4D5;  }
-a:active {
-background-color:#C5D4D5; }
-a:hover { 
-background-color: #C5D4D5; color:black;padding:0px 0px 0px 0px;}
 
 
 .underimage {
