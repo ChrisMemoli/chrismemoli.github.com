@@ -54,7 +54,7 @@ function gotoshow(){
 			}(document, 'script', 'twitter-wjs');
 		
 			//configure the paths of the images, plus corresponding target links
-			slideshowimages("images/lakes.jpg","images/upstate.PNG", "images/coma1.jpg","images/avill.jpg", "images/conference.PNG",  "images/car.jpg", "images/grad_mom.jpg", "images/lifeSup.jpg", "images/memmom.jpg", "images/re/family.jpg", "images/car2.jpg", "images/coma1.jpg", "images/fly.jpg");
+			slideshowimages("images/lakes.jpg","images/upstate.PNG", "images/avill.jpg", "images/conference.PNG",  "images/fly.jpg", "images/grad_mom.jpg",  "images/memmom.jpg",  "images/fly.jpg");
 			//configure the speed of the slideshow, in miliseconds
 			var slideshowspeed = 3000;
 			var whichlink = 0;
