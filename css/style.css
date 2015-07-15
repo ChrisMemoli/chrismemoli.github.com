@@ -133,13 +133,14 @@ a{
 
 
 .what_i_do{
+	text-align: center;
 	margin-top:-33px;
 	margin-right: 132px;
 	margin-left:139px; 
 	border: 2px solid white; 
 	font-size: 130%; 
 	margin-bottom: 25px;
-	padding:18px;
+	padding:18px 65px;
 	border-radius: px;
 	background:#FFFFFF;
 	
@@ -204,8 +205,8 @@ body
 	border:10px;
 }
 p {
-  font-size: 27px;
-  font-weight: bold;
+  font-size: 21px;
+  font-weight: ;
 }
 .inside{
 	padding-top:30;
