@@ -50,7 +50,7 @@ hr {
 }
 
 .navbar-nav {
-
+    
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
@@ -204,7 +204,7 @@ footer p {
 .underimage{
     display: inline-block;
     font-size: 15px;
-    margin-right: -25px;
+    margin-right: 0px;
 }
 .underimage a {color:#2e3548;
  }        
