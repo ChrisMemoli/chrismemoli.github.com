@@ -1,8 +1,9 @@
 ﻿		
 #content{
 	width:1140px;
-    
-	font-family: 'Fjalla One', sans-serif;
+	margin-left: 22px;    
+	font-family: 'Fjalla One', sans-serif:
+	margin-left:auto;
 	margin-right: auto;
 	padding:40px 30px 30px 30px;
 	margin-bottom:0px;
@@ -10,8 +11,8 @@
     border-left :thin black solid;
  border-right :thin black solid;
       padding-top:0px;
-    margin-left: 25px;
-	box-shadow:10px 10px 5px #888888;
+      margin-left: 29px;
+	box-shadow:10px 10px  5px #888888;
 }
 
 
@@ -20,6 +21,21 @@
 		}
 	
 		
+#content{
+	width:1140px;
+    
+	font-family: 'Fjalla One', sans-serif:
+	margin-left:auto;
+	margin-right: auto;
+	padding:40px 30px 30px 30px;
+	margin-bottom:0px;
+	position: relative;
+    border-left :thin black solid;
+ border-right :thin black solid;
+      padding-top:0px;
+	box-shadow:10px 10px 5px #888888;
+}
+
 /*portfolio page*/		
 		.content img {
 			display: inline;
