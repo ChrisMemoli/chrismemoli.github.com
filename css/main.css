@@ -15,6 +15,20 @@
 	box-shadow:10px 10px  5px #888888;
 }
 		
+#content1{
+	width:1283px;    
+	font-family: 'Fjalla One', sans-serif;
+	margin-left:90px;
+	margin-right: auto;
+	padding:40px 30px 30px 30px;
+	margin-bottom:0px;
+	position: relative;
+    border-left :thin black solid;
+ border-right :thin black solid;
+      padding-top:0px;
+	box-shadow:10px 10px  5px #888888;
+}
+
 
 .underimage {
 		display: inline-block;
