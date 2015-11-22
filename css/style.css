@@ -171,12 +171,16 @@ header {
 	background-attachment:fixed !important;
 	overflow:hidden;
 }
-.parallax-pattern-overlay {
-	background-image:url(../img/gl.jpg);
-    max-width: 100%;
-    height: auto;
-    margin-bottom: ;
-	background-repeat: repeat;
+.parallax-pattern-overlay {    background: url('../images/gl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+
 }
 /*---------------------------------------------------- 	Heading------------------------------------------------------*/
 
