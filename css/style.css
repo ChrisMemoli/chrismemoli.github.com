@@ -64,6 +64,7 @@ img {max-width: 100%;}
 	margin:0 auto;
 	text-align:center;
 	float:none;
+	background: black;
 }
 .navbar-toggle {
 	margin-top: 14px;
@@ -131,7 +132,7 @@ img {max-width: 100%;}
 	-moz-transition:all .5s;
 	-webkit-transition:all .5s;
 	transition:all .5s;
-		background:#111;
+		background:black;
 		margin-bottom: 8px;
 		height: 85px;
 }
