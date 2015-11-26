@@ -132,7 +132,6 @@ img {max-width: 100%;}
 	-webkit-transition:all .5s;
 	transition:all .5s;
 		background:#111;
-		margin-bottom: 16px;
 }
 .isFixed {
 	background:#333;
