@@ -133,6 +133,7 @@ img {max-width: 100%;}
 	transition:all .5s;
 		background:#111;
 		margin-bottom: 8px;
+		height: 85px;
 }
 .isFixed {
 	background:#333;
