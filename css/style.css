@@ -72,7 +72,7 @@ img {max-width: 100%;}
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
 .navbar-wrapper {
 	margin-top:0px;
-	height:80px;
+	height:92px;
 	position:relative;
 	z-index:15;
 }
