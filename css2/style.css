@@ -33,15 +33,6 @@ img {max-width: 100%;}
 	left:0px;
 	width:100%;
 }
-.menu {
-	 margin-top:0px;
-	 position:absolute;
-	 z-index:999;
-	 margin-top:20px;
-	 left:0px;
-	 right:-16px;
-	 bottom:0;
-}
 
 .navArea {
 	/*float:right;*/
@@ -49,6 +40,7 @@ img {max-width: 100%;}
 .navwrapper .container {
 	padding:0;
 	width:auto;
+
 }
 .navbar-header {
 	display:none;
@@ -67,7 +59,7 @@ img {max-width: 100%;}
 	background: black;
 }
 .navbar-toggle {
-	margin-top: 14px;
+	margin-top: ;
 }
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
 .navbar-wrapper {
@@ -90,7 +82,6 @@ img {max-width: 100%;}
 	background:none;
 	color:#c3c8d6;
 	border:none;
-	font-family:'Open Sans',sans-serif;
 	font-size:14px;
 	font-weight:600;
 	text-transform:uppercase;
@@ -133,7 +124,6 @@ img {max-width: 100%;}
 	-webkit-transition:all .5s;
 	transition:all .5s;
 		background:black;
-		margin-bottom: px;
 		height: 92px;
 }
 .isFixed {
@@ -153,7 +143,7 @@ img {max-width: 100%;}
 }
 /*---------------------------------------------------- 	Intro------------------------------------------------------*/
 header {
-	padding-bottom:50px;
+	padding-bottom:0px;
 }
 .intro {
 	color:#900000;
@@ -176,6 +166,7 @@ header {
 }
 .parallax-pattern-overlay {
 	background-image:url(../images/gl2.jpg);
+	margin-top:0px ;	
     background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -190,7 +181,7 @@ background-position:center;
 	text-align:center;
 	max-width:960px;
 	margin:0px auto;
-	padding-top:80px;
+	padding-top:50px;
 }
 .heading h2 {
 	font-weight:700;
@@ -210,6 +201,9 @@ background-position:center;
 }
 img#site-title {
 	max-width: 150px;
+}
+img#site-title2 {
+	max-width: 300px;
 }
 /*---------------------------------------------------- 	My Story------------------------------------------------------*/
 .papers,.papers:before,.papers:after {
@@ -357,137 +351,6 @@ img#site-title {
 	background:#333;
 	padding: 25px;
 }
-/* Slideshow style 
-.slideshow {
-	position:fixed;
-	background:rgba(0,0,0,0.6);
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	z-index:500;
-	opacity:0;
-	visibility:hidden;
-	overflow:hidden;
-	-webkit-perspective:1000px;
-	perspective:1000px;
-	-webkit-transition:opacity 0.5s,visibility 0s 0.5s;
-	transition:opacity 0.5s,visibility 0s 0.5s;
-}
-.slideshow-open .slideshow {
-	opacity:1;
-	visibility:visible;
-	-webkit-transition:opacity 0.5s;
-	transition:opacity 0.5s;
-}
-.slideshow ul {
-	width:100%;
-	height:100%;
-	-webkit-transform-style:preserve-3d;
-	transform-style:preserve-3d;
-	-webkit-transform:translate3d(0,0,150px);
-	transform:translate3d(0,0,150px);
-	-webkit-transition:-webkit-transform 0.5s;
-	transition:transform 0.5s;
-}
-.slideshow ul.animatable li {
-	-webkit-transition:-webkit-transform 0.5s;
-	transition:transform 0.5s;
-}
-.slideshow-open .slideshow ul {
-	-webkit-transform:translate3d(0,0,0);
-	transform:translate3d(0,0,0);
-}
-.slideshow li {
-	width:660px;
-	height:560px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:-280px 0 0 -330px;
-	visibility:hidden;
-}
-.slideshow li.show {
-	visibility:visible;
-}
-.slideshow li:after {
-	content:'';
-	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	background:rgba(255,255,255,0.8);
-	-webkit-transition:opacity 0.3s;
-	transition:opacity 0.3s;
-}
-.slideshow li.current:after {
-	visibility:hidden;
-	opacity:0;
-	-webkit-transition:opacity 0.3s,visibility 0s 0.3s;
-	transition:opacity 0.3s,visibility 0s 0.3s;
-}
-.slideshow figure {
-	width:100%;
-	height:100%;
-	background:#fff;
-	border:50px solid #fff;
-	overflow:hidden;
-}
-.slideshow figcaption {
-	padding-bottom:20px;
-}
-.slideshow figcaption h3 {
-	font-weight:300;
-	font-size:200%;
-	color: #333;
-}
-/* Navigation  
-.slideshow nav span {
-	position:fixed;
-	z-index:1000;
-	color:#fff;
-	text-align:center;
-	padding:2%;
-	cursor:pointer;
-	font-size:2.2em;
-	background:rgba(0,0,0,0.1);
-}
-.slideshow nav span.nav-prev,.slideshow nav span.nav-next {
-	top:50%;
-	-webkit-transform:translateY(-50%);
-	transform:translateY(-50%);
-}
-.slideshow nav span.nav-next {
-	right:0;
-}
-.slideshow nav span.nav-close {
-	top:75px;
-	right:0px;
-	padding:10px 25px;
-	color:#999;
-}
-.icon:before,.icon:after {
-	font-family:'fontawesome';
-	speak:none;
-	font-style:normal;
-	font-weight:normal;
-	font-variant:normal;
-	text-transform:none;
-	line-height:1;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-}
-span.nav-prev:before {
-	content:"\f104";
-}
-span.nav-next:before {
-	content:"\f105";
-}
-span.nav-close:before {
-	content: "\f00d";
-}
-/* Info on arrow key navigation */
 .info-keys {
 	position:fixed;
 	top:10px;
