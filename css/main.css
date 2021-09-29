@@ -1,0 +1,51 @@
+
+#popupfoot{
+  margin-bottom: -8%;
+}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#222;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:350px; 
+  height:auto;
+  padding:10px;
+    background: url('../images/gl2.jpg');
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+.wrapup{
+    background: rgba(255,255,255,0.9);
+    width: 300px;
+    height: auto;
+
+
+}
+.text{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 22px;
+  text-align: center;
+  color: #ffff6e;
+  font-weight: 700;
+}
